@@ -16,9 +16,9 @@ data_config:
   preprocessing:
     ensure_rgb: false
     ensure_grayscale: true
-    max_height: 240
-    max_width: 352
-    scale: 1.5
+    max_height: 2160
+    max_width: 3840
+    scale: 1.0
     crop_size: 192
     min_crop_size: 100
     crop_padding: null

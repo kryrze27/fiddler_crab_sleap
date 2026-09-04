@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=8G
 #SBATCH --gres=gpu:1
-#SBATCH --constraint=gpu40
+#SBATCH --constraint=gpu80
 #SBATCH --time=24:00:00
 #SBATCH --output=/scratch/gpfs/SHAEVITZ/kr3541/crab/centroid_v004_logs/sleap_%j.out
 #SBATCH --error=/scratch/gpfs/SHAEVITZ/kr3541/crab/centroid_v004_logs/sleap_%j.err
